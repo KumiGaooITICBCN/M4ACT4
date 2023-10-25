@@ -34,7 +34,7 @@ legend {
   color: black;
   background-color: white;
 }
-/*hace que cuando estas en escribiendo o dentro del formulario la letra sea azul*/
+/*hace que cuando estas en escribiendo o dentro del formulario, textarea y el desplegable de curs la letra sea azul y el fondo aliceblue*/
 .form1:focus {
   color: blue;
 }
