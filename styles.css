@@ -1,0 +1,40 @@
+/*Esto hace que el texto se alinee a la izquierda y le pone un padding en la parte izquierda de 300px, también cambia la letra a verdana*/
+body {
+  text-align: left;
+  padding-left: 300px;
+  background-color: wheat;
+  font-family: Verdana;
+}
+/*Pone los h1 en naranja*/
+h1 {
+  color: orange;
+  /*Pone la leyenda en tamaño mediano y negrita*/
+}
+legend {
+  font-size: medium;
+  font-weight: bold;
+}
+/*hace que la amplada de los form1 sea de 300px*/
+.form1 {
+  width: 300px;
+  /*hace que la amplada del formulario de la edad sea de 100px*/
+}
+#form-edat {
+  width: 100px;
+}
+/*determina el tamaño, color y color de fondo del boton*/
+.button {
+  height: 50px;
+  width: 100px;
+  color: white;
+  background-color: orange;
+}
+/*hace que cuando pases el cursor por encima del boton cambie de color y de fondo*/
+.button:hover {
+  color: black;
+  background-color: white;
+}
+/*hace que cuando estas en escribiendo o dentro del formulario la letra sea azul*/
+.form1:focus {
+  color: blue;
+}
