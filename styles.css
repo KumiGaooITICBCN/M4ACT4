@@ -38,3 +38,12 @@ legend {
 .form1:focus {
   color: blue;
 }
+#textArea-novetats:focus {
+  color: blue;
+  background-color: aliceblue;
+}
+#curs:focus {
+  color: blue;
+  background-color: aliceblue;
+}
+
